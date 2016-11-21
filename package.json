@@ -1,0 +1,38 @@
+{
+  "name": "serverless-crash-reporting",
+  "version": "1.0.0",
+  "description": "A serverless webtask/function for handling crash reports from Electron apps (for use with Webtask.io)",
+  "main": "crash-reporter.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Teamwork/serverless-crash-reporting.git"
+  },
+  "keywords": [
+    "electron",
+    "crash",
+    "report",
+    "crash-reporter",
+    "serverless",
+    "webtask",
+    "function",
+    "error",
+    "dump",
+    "desktop",
+    "app"
+  ],
+  "author": "Adam Lynch <contact@adamlynch.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Teamwork/serverless-crash-reporting/issues"
+  },
+  "homepage": "https://github.com/Teamwork/serverless-crash-reporting#readme",
+  "dependencies": {
+    "aws-sdk": "^2.7.5",
+    "bluebird": "^3.4.6",
+    "formidable": "^1.0.17",
+    "raven": "^0.12.3"
+  }
+}
